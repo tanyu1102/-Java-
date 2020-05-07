@@ -1,10 +1,10 @@
 import java.util.*;
 public class Test35{
 	public static void main(String[] args){
-		System.out.println("ÇëÎÊÄúÏë²é¿´ÄÄÄêµÄÈÕÀú±íÄØ£¿");
+		System.out.println("è¯·é—®æ‚¨æƒ³æŸ¥çœ‹å“ªå¹´çš„æ—¥å†è¡¨å‘¢ï¼Ÿ");
 		Scanner input=new Scanner(System.in);
 		int years=input.nextInt();
-		System.out.println("ÇëÎÊÄúÏë¿´"+years+"ÄêµÄ¼¸ÔÂµÄÈÕÀú±í£¿");
+		System.out.println("è¯·é—®æ‚¨æƒ³çœ‹"+years+"å¹´çš„å‡ æœˆçš„æ—¥å†è¡¨ï¼Ÿ");
 		int months=input.nextInt();
 
 		int sum=0;
@@ -48,7 +48,7 @@ public class Test35{
 			}
 		}
 		System.out.println("-----------------------------------------------------------------------");
-		System.out.println("\tÒ»\t¶ş\tÈı\tËÄ\tÎå\tÁù\tÆß\t");
+		System.out.println("\tä¸€\täºŒ\tä¸‰\tå››\täº”\tå…­\tä¸ƒ\t");
 		System.out.println("-----------------------------------------------------------------------");
 		if(sum%7==0){
 			System.out.print("\t\t\t\t\t\t\t");
